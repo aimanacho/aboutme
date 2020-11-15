@@ -17,29 +17,34 @@ html
 
 #section1 {
   height: 600px;
-  background-color: darkgrey;
 }
 
 #section2 {
-  height: 930px;
+
 }
+
 #section3 {
-  height: 970px;
+  margin-top: 8%;
 }
+
 #section4 {
-  height: 520px;
+  margin-top: 8%;
 }
+
 #section41 {
-  height: 1400px;
+
 }
+
 #section42 {
-  height: 450px;
+  margin-top: 8%;
 }
+
 #section5 {
-  height: 1600px;
+  margin-top: 8%;
 }
+
 #section6 {
-  height: 1200px;
+  margin-top: 8%;
 }
 
 /* mountain */
@@ -104,7 +109,7 @@ nav ul li::before, .active{
 }
 
 nav ul li:hover::before{
-	transform: scale(12);
+	transform: scale(13);
 }
 
 /* section 1 */
@@ -315,52 +320,25 @@ padding-right: 1.1rem;
     position: absolute;
     top: 0.08em;
     left: 0.08em;
-    display: block;
-    content: " ";
+    content: "";
     border-radius: 50%;
     background-color: white;
     width: 0.84em;
     height: 0.84em;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
     transition-property: all;
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
   }
 
   .c100.p72 .bar {
-    -webkit-transform: rotate(259.2deg);
-    -moz-transform: rotate(259.2deg);
-    -ms-transform: rotate(259.2deg);
-    -o-transform: rotate(259.2deg);
     transform: rotate(259.2deg);
   }
   .c100.p78 .bar {
-    -webkit-transform: rotate(280.8deg);
-    -moz-transform: rotate(280.8deg);
-    -ms-transform: rotate(280.8deg);
-    -o-transform: rotate(280.8deg);
     transform: rotate(280.8deg);
   }
   .c100.p83 .bar {
-    -webkit-transform: rotate(298.8deg);
-    -moz-transform: rotate(298.8deg);
-    -ms-transform: rotate(298.8deg);
-    -o-transform: rotate(298.8deg);
     transform: rotate(298.8deg);
   }
   .c100.p87 .bar {
-    -webkit-transform: rotate(313.2deg);
-    -moz-transform: rotate(313.2deg);
-    -ms-transform: rotate(313.2deg);
-    -o-transform: rotate(313.2deg);
     transform: rotate(313.2deg);
   }
 
